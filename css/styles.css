@@ -276,7 +276,7 @@ header a:not(.logo):focus .nav-contact-icon {
   position: relative;
   display: flex;
   flex-direction: column;
-  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .label-main-form {
   margin-bottom: 4px;
@@ -288,6 +288,7 @@ header a:not(.logo):focus .nav-contact-icon {
 }
 .form-field-policy {
   margin-top: 20px;
+  margin-bottom: 0;
 }
 .label-policy {
   display: flex;
@@ -333,8 +334,8 @@ header a:not(.logo):focus .nav-contact-icon {
   position: absolute;
   top: 50%;
   left: 15px;
-  width: 16px;
-  height: 16px;
+  width: 18px;
+  height: 18px;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
@@ -356,6 +357,7 @@ header a:not(.logo):focus .nav-contact-icon {
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+  resize: none;
 
   transition-property: outline, border-color;
   transition-duration: 250ms;
@@ -381,13 +383,13 @@ header a:not(.logo):focus .nav-contact-icon {
 .check-icon {
   margin-left: 12px;
   margin-right: 7px;
-  width: 16px;
-  height: 15px;
+  width: 18px;
+  height: 18px;
   fill: white;
   padding: 2px;
   border: 2px solid var(--primary-text-color);
   border-radius: 2px;
-  transition-property: fill, background-color, border;
+  transition-property: fill, background-color;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
 }
