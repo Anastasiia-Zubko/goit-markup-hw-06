@@ -218,6 +218,7 @@ header a:not(.logo):focus .nav-contact-icon {
   transition-property: opacity;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
+  z-index: 99;
 }
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0.8);
@@ -242,7 +243,6 @@ header a:not(.logo):focus .nav-contact-icon {
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
   padding: 10px 40px;
-  z-index: 99;
 }
 .modal-btn {
   padding: 0;
@@ -476,7 +476,6 @@ header a:not(.logo):focus .nav-contact-icon {
 }
 .our-work-pics {
   position: relative;
-  z-index: -1;
 }
 .pic-overlay {
   position: absolute;
